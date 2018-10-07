@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Xd5aIeH5e49EKGSKfOQDlKmDpadURiWXGg4IPOIo2BTj/b/ok56eVSoI5WL6vU2QrTWqbWTonFCmFi+Ukk94QSSCUmqG8o3vCNw+HYmufn8QX6UY0Gmb2AlTDXPLfePnrQ1dQ8ES072Lv+Z9u2Vxd1jD9O/5eleqIYU4AB+esoEUaryzZpYFZ2AHNOtYK+HkUfPA2/tvZWiAPCZXz2XZV1NIplntE8POoU5jMZyjV4SbX4Ya14/cXAGfY+l06H6qcR2+8nnUD9jPcLBhQYbMs+1k4bziqhezy4o6w8wXX0wN7fk4pVgH/7rfhS9s4EC+s3jl4GYBxeXK6H0mGuh9q4kjItwTSoEgGJONEozl1/+ER5OvaIND1pVR18V4uTrfAUWS4AIC2nQQCcQ056Yf5ualMxlhyr1ljq9gfU5qaneOmZFEc5WcRpRZxgvfT8UxXmM0K1sWEaBhF2MbMt37FOu7PgF5YuNmChM7XAiklBwfpxFh3yD7LFKGrLvopdHiyaDfY4JkMTVJlrl1UEGhxFqapQuqgcY9+m3eyEcyaDTR57nZGUw36jEPzWCi5bcTrFhn6RySLGuoUvvkeyTMirr+yk4wkQD3VUVQOThkiGajLbgRa7pMm4plNm13mJyKm0Cvv6ECF73rPwDOTVDb2Hrx8tG5N3se5Eq4W7l/CdA=
+  app:  sleepy-bayou-24780
+  on:
+    repo: JNighs/node-shopping-list-integration-tests
